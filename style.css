@@ -1,0 +1,89 @@
+.site-header {
+  background-color: #fbf8fd;
+  min-height: 100px;
+}
+* {
+    font-size: 1rem;
+    font-family: IRANSans, tahoma, Arial, Helvetica, sans-serif;
+  }
+a,
+i {
+  color: black;
+  font-size: 1.5rem;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: inline;
+  padding-left: 0.5rem;
+}
+.slider {
+  min-height: 50vh;
+  max-height: 70vh;
+  object-fit: cover;
+}
+.post button {
+  visibility: hidden;
+}
+.post button > * {
+  visibility: visible;
+}
+.post img {
+  max-width: 50vw;
+  max-width: 30vw;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.post {
+  border: 3px solid white;
+  box-shadow: 0px 0px 3px grey;
+}
+.btn-fav {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.973);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+footer,
+footer a,
+footer i {
+  background: rgb(83, 83, 83);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+.star-btn i {
+  color: rgb(83, 83, 83);
+}
+.active {
+  color: rgb(255, 215, 0) !important;
+}
+.star-btn i:hover {
+  color: rgb(255, 215, 0);
+}
+.card {
+  box-shadow: rgb (167, 167, 167);
+}
+.card-btn-p {
+  background: rgb(83, 83, 83);
+  padding: 0;
+  padding: 2px 1rem;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
+}
+.s {
+  background-color: rgb(214, 26, 26);
+}
+h2 {
+  border-bottom: 2px solid rgb(214, 26, 26);
+  display: inline-block;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
